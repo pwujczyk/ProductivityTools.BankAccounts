@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductivityTools.BankAccounts.Api", "ProductivityTools.BankAccounts.Api\ProductivityTools.BankAccounts.Api.csproj", "{287A541E-D377-46A5-93CB-56E1AB444058}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Bank.Millenium.Commands", "ProductivityTools.Bank.Millenium.Commands\ProductivityTools.Bank.Millenium.Commands.csproj", "{2BF0DB26-4697-4D96-869B-1C8C2E94FFBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Bank.Millenium.Database", "ProductivityTools.Bank.Millenium.Database\ProductivityTools.Bank.Millenium.Database.csproj", "{FEDAF0CB-BE52-416F-BF6E-D616892AED97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Bank.Millenium.DBUp", "ProductivityTools.Bank.Millenium.DBUp\ProductivityTools.Bank.Millenium.DBUp.csproj", "{0D59D4AA-2720-46BF-8891-86129E3865CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.Bank.Millenium.Objects", "ProductivityTools.Bank.Millenium.Objects\ProductivityTools.Bank.Millenium.Objects.csproj", "{9729ACF3-6CC6-4C8E-8678-1B8C28C816C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{287A541E-D377-46A5-93CB-56E1AB444058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287A541E-D377-46A5-93CB-56E1AB444058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287A541E-D377-46A5-93CB-56E1AB444058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF0DB26-4697-4D96-869B-1C8C2E94FFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF0DB26-4697-4D96-869B-1C8C2E94FFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF0DB26-4697-4D96-869B-1C8C2E94FFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF0DB26-4697-4D96-869B-1C8C2E94FFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEDAF0CB-BE52-416F-BF6E-D616892AED97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEDAF0CB-BE52-416F-BF6E-D616892AED97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEDAF0CB-BE52-416F-BF6E-D616892AED97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEDAF0CB-BE52-416F-BF6E-D616892AED97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D59D4AA-2720-46BF-8891-86129E3865CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D59D4AA-2720-46BF-8891-86129E3865CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D59D4AA-2720-46BF-8891-86129E3865CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D59D4AA-2720-46BF-8891-86129E3865CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9729ACF3-6CC6-4C8E-8678-1B8C28C816C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9729ACF3-6CC6-4C8E-8678-1B8C28C816C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9729ACF3-6CC6-4C8E-8678-1B8C28C816C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9729ACF3-6CC6-4C8E-8678-1B8C28C816C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

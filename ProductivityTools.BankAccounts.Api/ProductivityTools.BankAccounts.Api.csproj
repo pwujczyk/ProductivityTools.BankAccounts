@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProductivityTools.Bank.Millenium.Commands\ProductivityTools.Bank.Millenium.Commands.csproj" />
-    <ProjectReference Include="..\ProductivityTools.Bank.Millenium.Objects\ProductivityTools.Bank.Millenium.Objects.csproj" />
+    <ProjectReference Include="..\ProductivityTools.BankAccounts.Commands\ProductivityTools.BankAccounts.Commands.csproj" />
+    <ProjectReference Include="..\ProductivityTools.BankAccounts.Objects\ProductivityTools.BankAccounts.Objects.csproj" />
   </ItemGroup>
 
 </Project>

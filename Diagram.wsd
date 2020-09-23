@@ -1,0 +1,42 @@
+@startuml
+
+title BankAccounts - architecture Diagram
+package nuget{
+ [BankAccounts.Contract] as Contract
+}
+
+package "User Computer" {
+  component [BankMillenium PSModule] as ModuleBM
+  component [BankInteligo PSModule] as ModuleBI
+}
+ 
+
+cloud Internet{
+}
+
+node "ApplicationServer" {
+  [Api]
+  [Commands]
+  [Database]
+  [DBUp]
+}
+
+database "MsSQL"{
+  [PT.Bank]
+}
+
+ModuleBM -down-> Internet
+ModuleBI -down->Internet
+Internet -down->Api
+
+Api -down->Commands
+Commands -down->Database
+Database -down->PT.Bank
+
+ModuleBM .. Contract
+ModuleBI .. Contract
+WebApi .. Contract
+
+
+
+@enduml

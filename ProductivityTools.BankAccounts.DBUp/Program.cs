@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace ProductivityTools.Bank.Millenium.DBUp
+namespace ProductivityTools.BankAccounts.DBUp
 {
     class Program
     {

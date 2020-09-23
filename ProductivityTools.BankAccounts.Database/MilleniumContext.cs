@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using o = ProductivityTools.Bank.Millenium.Objects;
+using o = ProductivityTools.BankAccounts.Objects;
 using System;
 using System.Transactions;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Configuration;
 
-namespace ProductivityTools.Bank.Millenium.Database
+namespace ProductivityTools.BankAccounts.Database
 {
     public class MilleniumContext : DbContext
     {

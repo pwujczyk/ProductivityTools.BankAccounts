@@ -1,7 +1,7 @@
-﻿using ProductivityTools.Bank.Millenium.Objects;
+﻿using ProductivityTools.BankAccounts.Objects;
 using System.Collections.Generic;
 
-namespace ProductivityTools.Bank.Millenium.Commands
+namespace ProductivityTools.BankAccounts.Commands
 {
     public interface IBMCommands
     {

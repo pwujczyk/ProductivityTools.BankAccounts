@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProductivityTools.Bank.Millenium.Database;
-using ProductivityTools.Bank.Millenium.Objects;
+using ProductivityTools.BankAccounts.Database;
+using ProductivityTools.BankAccounts.Objects;
 using ProductivityTools.DateTimeTools;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 
-namespace ProductivityTools.Bank.Millenium.Commands
+namespace ProductivityTools.BankAccounts.Commands
 {
     public class BMCommands : IBMCommands
     {

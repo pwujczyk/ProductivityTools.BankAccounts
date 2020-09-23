@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ProductivityTools.Bank.Millenium.Commands;
+using ProductivityTools.BankAccounts.Commands;
 
 namespace ProductivityTools.BankAccounts.Api
 {

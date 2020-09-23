@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProductivityTools.Bank.Millenium.Objects
+namespace ProductivityTools.BankAccounts.Objects
 {
     public class BasicData
     {

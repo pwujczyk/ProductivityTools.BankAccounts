@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProductivityTools.Bank.Millenium.Objects
+namespace ProductivityTools.BankAccounts.Objects
 {
     public class Transaction
     {

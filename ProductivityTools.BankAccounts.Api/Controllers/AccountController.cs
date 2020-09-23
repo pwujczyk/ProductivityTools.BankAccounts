@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ProductivityTools.BankAccounts.Commands;
-using ProductivityTools.BankAccounts.Objects;
+using ProductivityTools.BankAccounts.Contract;
 
 namespace ProductivityTools.BankAccounts.Api.Controllers
 {

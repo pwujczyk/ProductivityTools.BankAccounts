@@ -1,4 +1,4 @@
-﻿using ProductivityTools.BankAccounts.Objects;
+﻿using ProductivityTools.BankAccounts.Contract;
 using System.Collections.Generic;
 
 namespace ProductivityTools.BankAccounts.Commands

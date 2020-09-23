@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProductivityTools.BankAccounts.Objects
+namespace ProductivityTools.BankAccounts.Contract
 {
     public class Transaction
     {

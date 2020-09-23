@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductivityTools.BankAccounts.Database;
-using ProductivityTools.BankAccounts.Objects;
+using ProductivityTools.BankAccounts.Contract;
 using ProductivityTools.DateTimeTools;
 using System;
 using System.Collections.Generic;

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using o = ProductivityTools.BankAccounts.Objects;
+using o = ProductivityTools.BankAccounts.Contract;
 using System;
 using System.Transactions;
 using Microsoft.Extensions.Options;

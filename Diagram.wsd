@@ -32,6 +32,7 @@ Internet -down->Api
 Api -down->Commands
 Commands -down->Database
 Database -down->PT.Bank
+DBUp -down-> Database
 
 ModuleBM .. Contract
 ModuleBI .. Contract

@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductivityTools.BankAccounts.Commands\ProductivityTools.BankAccounts.Commands.csproj" />
-    <ProjectReference Include="..\ProductivityTools.BankAccounts.Objects\ProductivityTools.BankAccounts.Objects.csproj" />
+    <ProjectReference Include="..\ProductivityTools.BankAccounts.Contract\ProductivityTools.BankAccounts.Contract.csproj" />
   </ItemGroup>
 
 </Project>

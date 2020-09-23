@@ -9,12 +9,12 @@ using System.Runtime.InteropServices;
 
 namespace ProductivityTools.Bank.Millenium.Commands
 {
-    public class BMCommands
+    public class BMCommands : IBMCommands
     {
         MilleniumContext Context;
         IDateTimePT currentdate;
 
-        public BMCommands (MilleniumContext context, IDateTimePT date)
+        public BMCommands(MilleniumContext context, IDateTimePT date)
         {
             this.Context = context;
             this.currentdate = date;
@@ -23,8 +23,8 @@ namespace ProductivityTools.Bank.Millenium.Commands
         public void SaveBasicData(BasicData basicData)
         {
             basicData.Date = currentdate.Now;
-            var currentRecord=this.Context.BasicData.AsNoTracking().FirstOrDefault(x => x.Date.Date == this.currentdate.Now.Date);
-            if (currentRecord==null)
+            var currentRecord = this.Context.BasicData.AsNoTracking().FirstOrDefault(x => x.Date.Date == this.currentdate.Now.Date);
+            if (currentRecord == null)
             {
                 this.Context.BasicData.Add(basicData);
             }
@@ -53,7 +53,7 @@ namespace ProductivityTools.Bank.Millenium.Commands
 
         public void SaveTransactions(List<Transaction> transactions)
         {
-           foreach(var transaction in transactions)
+            foreach (var transaction in transactions)
             {
                 SaveTransaction(transaction);
             }

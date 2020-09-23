@@ -5,15 +5,16 @@ Content-Type: application/json
     "name":"pawel"
 }
 
+###
 
 POST https://localhost:44306/Account/BasicData HTTP/1.1
 Content-Type: application/json
 
 {
   "basicDataId": 0,
-  "date": "0001-01-01T00:00:00",
-  "saldo": 0.0,
-  "availiableFunds": 0.0,
-  "blockedFunds": 0.0,
-  "incomingTransfers": 0.0
+  "date": "2020-09-11T00:00:00",
+  "saldo": 1,
+  "availiableFunds": 2,
+  "blockedFunds":3,
+  "incomingTransfers": 5
 }

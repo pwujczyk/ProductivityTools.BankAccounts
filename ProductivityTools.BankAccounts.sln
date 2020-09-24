@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.BankAccou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.BankAccounts.DBUp", "ProductivityTools.BankAccounts.DBUp\ProductivityTools.BankAccounts.DBUp.csproj", "{899F3B1F-F1E7-4B58-BEAC-980D6F0A8D45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductivityTools.BankAccounts.Contract", "ProductivityTools.BankAccounts.Contract\ProductivityTools.BankAccounts.Contract.csproj", "{9FE7B655-93C2-44FE-9CB4-A3D97647EA2E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{899F3B1F-F1E7-4B58-BEAC-980D6F0A8D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{899F3B1F-F1E7-4B58-BEAC-980D6F0A8D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{899F3B1F-F1E7-4B58-BEAC-980D6F0A8D45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FE7B655-93C2-44FE-9CB4-A3D97647EA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FE7B655-93C2-44FE-9CB4-A3D97647EA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FE7B655-93C2-44FE-9CB4-A3D97647EA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FE7B655-93C2-44FE-9CB4-A3D97647EA2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

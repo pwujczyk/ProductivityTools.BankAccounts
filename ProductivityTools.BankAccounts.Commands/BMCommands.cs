@@ -23,7 +23,10 @@ namespace ProductivityTools.BankAccounts.Commands
         public void SaveBasicData(BasicData basicData)
         {
             basicData.Date = currentdate.Now;
-            var currentRecord = this.Context.BasicData.AsNoTracking().FirstOrDefault(x => x.Date.Date == this.currentdate.Now.Date);
+            var currentRecord = this.Context.BasicData.AsNoTracking().FirstOrDefault(x =>
+            x.Date.Date == this.currentdate.Now.Date
+            && x.Bank==basicData.Bank
+            && x.Account==basicData.Account);
             if (currentRecord == null)
             {
                 this.Context.BasicData.Add(basicData);

@@ -1,0 +1,1 @@
+﻿ALTER TABLE [bm].[BasicData] ALTER COLUMN Saldo decimal (8,2)

@@ -12,10 +12,14 @@
     <None Remove="Scripts\003.DescriptionTransaction.sql" />
     <None Remove="Scripts\004.Location.sql" />
     <None Remove="Scripts\005.BankAccountExtension.sql" />
+    <None Remove="Scripts\006.IncreaseSize.sql" />
+    <None Remove="Scripts\007.IncreaseSizeSaldo.sql" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Scripts\001.Schema.sql" />
+    <EmbeddedResource Include="Scripts\007.IncreaseSizeSaldo.sql" />
+    <EmbeddedResource Include="Scripts\006.IncreaseSize.sql" />
     <EmbeddedResource Include="Scripts\005.BankAccountExtension.sql" />
     <EmbeddedResource Include="Scripts\004.Location.sql" />
     <EmbeddedResource Include="Scripts\003.DescriptionTransaction.sql" />
